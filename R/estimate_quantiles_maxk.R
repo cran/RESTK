@@ -29,7 +29,6 @@ estimate_quantiles_maxk <- function(samp = NULL, maxk_line = NULL, probs_interes
     }
 
     best_k_est <- RESTK::get_min_maxk(data_test_k_est, ks)
-
     estimated_quantiles[iter_1] <- (sum(samp^best_k_est) / n)^(1 / best_k_est) / (1 - prob)^(1 / best_k_est)
     iter_1 <- iter_1 + 1
   }

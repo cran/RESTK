@@ -17,6 +17,6 @@ linear_adjust <- function(min_maxk = NULL, probs = NULL, probs_interest) {
   slope <- lm_fit$coefficients["x"]
   intercept <- lm_fit$coefficients["(Intercept)"]
   p_fit <- -log10(1 - as.numeric(probs_interest))
-  maxk_line <- round(intercept + slope * p_fit)
+  maxk_line <- intercept + slope * p_fit
   return(maxk_line)
 }

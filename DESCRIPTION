@@ -1,6 +1,6 @@
 Package: RESTK
 Title: An Implementation of the RESTK Algorithm
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person(given = "Sergi",
            family = "Vilardell",
            role = c("aut", "cre"),
@@ -12,8 +12,8 @@ RoxygenNote: 7.2.3
 Imports: purrr
 Suggests: knitr, rmarkdown
 NeedsCompilation: no
-Packaged: 2023-08-22 12:43:22 UTC; Sergi Vilardell
+Packaged: 2025-03-12 15:35:18 UTC; svilarde
 Author: Sergi Vilardell [aut, cre]
 Maintainer: Sergi Vilardell <sergi.vilardell@bsc.es>
 Repository: CRAN
-Date/Publication: 2023-08-22 18:20:02 UTC
+Date/Publication: 2025-03-12 15:50:02 UTC
